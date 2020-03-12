@@ -1,12 +1,12 @@
-import backproppers
-import calculators
-import fp_selectors
-import loggers
-import selectors
+from . import backproppers
+from . import calculators
+from . import fp_selectors
+from . import loggers
+from . import selectors
 import time
 import torch
 import torch.nn as nn
-import trainer as trainer
+from . import trainer as trainer
 
 start_time_seconds = time.time()
 

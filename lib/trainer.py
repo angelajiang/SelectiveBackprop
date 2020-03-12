@@ -2,8 +2,8 @@ import json
 import numpy as np
 import torch
 import torch.nn as nn
-import forwardproppers
-import sb_util
+from . import forwardproppers
+from . import sb_util
 
 
 class ExampleAndMetadata(object):
