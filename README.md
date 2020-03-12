@@ -10,7 +10,7 @@ paper](https://arxiv.org/abs/1910.00762) describes the system in detail.
 * Nvidia GPU with CUDA
 * PyTorch 0.4.0 or newer
 * python2.7
-* numpy, torch, torchvision, tqdm
+* numpy, torch, torchvision, tqdm, scipy, sklearn
 
 ## Example Commands
 
